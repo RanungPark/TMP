@@ -11,4 +11,7 @@
 (commit이 두개가맞는지 확인해본다.)
 
 
+11. branch name 
+master main
 
+12. 새로운 브랜치를 만들어서 
