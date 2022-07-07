@@ -73,7 +73,28 @@
         }
       }
     }
-    
+
+    //forEach 함수로 배열의 반복문 가능
+  //   answer.forEach((element,Findex)=>{
+  //     const index = value.indexOf(element);
+  //     if(index>-1){
+  //       if(index===i){
+  //         strike++;
+  //       }else{
+  //         ball++;
+  //       }
+  //   }
+  // })
+
+  // map 함수로 배열에 내용을 편리하게 바꿀수 있음(기존 내용은 바뀌지 않고 새로운곳에 넣어줘야함)
+  // answer.map((element,index)=>{
+  //   return element * 2; // 요소의 값에 *2
+  // })
+
+  // 빈배열 만들기 Array(?) 길이가 ?인 배열만들기 내부는 empty로 있음 .fill(?) ?으로 내부를 채움
+  // Array(9).fill(0) //길이가 9일 배열에 내부는 모두 0 
+
+
     if(strike===0 && ball===0){
       $logs.append(`${value} : 아웃!`,document.createElement('br'));
       out ++;
